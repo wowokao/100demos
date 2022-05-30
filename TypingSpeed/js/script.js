@@ -85,3 +85,8 @@ function reset() {
 randomParagraph();
 inputField.addEventListener('input', initTyping);
 btn.addEventListener('click', reset);
+
+module.exports = randomParagraph
+module.exports = initTyping
+module.exports = initTimer
+module.exports = reset
