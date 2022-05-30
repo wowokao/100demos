@@ -1,45 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Context Right</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-</head>
-<body>
-    <div class="wrapper">
-        <div class="content">
-            <ul class="menu">
-                <li class="item">
-                    <i class="uil uil-eye"></i>
-                    <span>Preview</span>
-                </li>
-                <li class="item">
-                    <i class="uil uil-share"></i>
-                    <span>Share</span>
-                </li>
-                <li class="item">
-                    <i class="uil uil-link-alt"></i>
-                    <span>Get Link</span>
-                </li>
-                <li class="item">
-                    <i class="uil uil-edit"></i>
-                    <span>Rename</span>
-                </li>
-                <li class="item">
-                    <i class="uil uil-trash-alt"></i>
-                    <span>Delete</span>
-                </li>
-            </ul>
-            <div class="setting">
-                <li class="item">
-                    <i class="uil uil-setting"></i>
-                    <span>Settings</span>
-                </li>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Custom Right Click Context Menu | CodingNepal</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Iconscout Link For Icons -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <ul class="menu">
+                    <li class="item">
+                        <i class="uil uil-eye"></i>
+                        <span>Preview</span>
+                    </li>
+                    <li class="item share">
+                        <div>
+                            <i class="uil uil-share"></i>
+                            <span>Share</span>
+                        </div>
+                        <i class="uil uil-angle-right"></i>
+                        <ul class="share-menu">
+                            <li class="item">
+                                
+                                <span>Twitter</span>
+                            </li>
+                            <li class="item">
+                                
+                                <span>Instagram</span>
+                            </li>
+                            <li class="item">
+                                
+                                <span>Dribble</span>
+                            </li>
+                            <li class="item">
+                            
+                                <span>Telegram</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <i class="uil uil-link-alt"></i>
+                        <span>Get Link</span>
+                    </li>
+                    <li class="item">
+                        <i class="uil uil-edit"></i>
+                        <span>Rename</span>
+                    </li>
+                    <li class="item">
+                        <i class="uil uil-trash-alt"></i>
+                        <span>Delete</span>
+                    </li>
+                </ul>
+                <div class="setting">
+                    <li class="item">
+                        <i class="uil uil-setting"></i>
+                        <span>Settings</span>
+                    </li>
+                </div>
             </div>
         </div>
-    </div>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>
